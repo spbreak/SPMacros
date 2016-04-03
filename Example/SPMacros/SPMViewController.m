@@ -7,6 +7,7 @@
 //
 
 #import "SPMViewController.h"
+#import "SPMaros.h"
 
 @interface SPMViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self.view setBackgroundColor:SPM_colorWithHex(0x24ccf0)];
 }
 
 - (void)didReceiveMemoryWarning

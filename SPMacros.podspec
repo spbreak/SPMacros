@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "SPMacros"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SPMacros."
+  s.summary          = "自定义宏SPMacros."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+  0.1.0 - 添加十六进制颜色宏
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SPMacros"
+  s.homepage         = "https://github.com/spbreak/SPMacros"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "zzxxccaa" => "2369137011@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SPMacros.git", :tag => s.version.to_s }
+  s.author           = { "spbreak" => "527108411@qq.com" }
+  s.source           = { :git => "https://github.com/spbreak/SPMacros.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

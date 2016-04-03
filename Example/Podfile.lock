@@ -1,0 +1,14 @@
+PODS:
+  - SPMacros (0.1.0)
+
+DEPENDENCIES:
+  - SPMacros (from `../`)
+
+EXTERNAL SOURCES:
+  SPMacros:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SPMacros: 57390095125e43f28f46b36a250bf3bf276098ca
+
+COCOAPODS: 0.39.0

@@ -20,9 +20,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		63A86F5FA0DE39A1ECDEAE09 /* Pods_SPMacros_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942E3C84138E746A1EF45114 /* Pods_SPMacros_Tests.framework */; };
+		7B9BD9677A74AD582BFCFE0D /* libPods-SPMacros_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 014EDEB274610329B8BC819B /* libPods-SPMacros_Tests.a */; };
+		8269C3335C2A20B249BFA1B3 /* libPods-SPMacros_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE56BF2873648C3593BC23F /* libPods-SPMacros_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		F069A90B37DC0AB95529B84C /* Pods_SPMacros_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECEABA2F845792108B11181 /* Pods_SPMacros_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		014EDEB274610329B8BC819B /* libPods-SPMacros_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPMacros_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		429E472FC5B993681F06AF6B /* SPMacros.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SPMacros.podspec; path = ../SPMacros.podspec; sourceTree = "<group>"; };
 		4B070D02627CB03053613C97 /* Pods-SPMacros_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPMacros_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPMacros_Example/Pods-SPMacros_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		595E5B800078B9AD80B13469 /* Pods-SPMacros_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPMacros_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPMacros_Tests/Pods-SPMacros_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -60,8 +61,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		78B3DEB409AB49BD971A1603 /* Pods-SPMacros_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPMacros_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPMacros_Tests/Pods-SPMacros_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		942E3C84138E746A1EF45114 /* Pods_SPMacros_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPMacros_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AECEABA2F845792108B11181 /* Pods_SPMacros_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPMacros_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE56BF2873648C3593BC23F /* libPods-SPMacros_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPMacros_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E39A1938FC178AC97E90D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E5007940DF5C1CC057CA69F5 /* Pods-SPMacros_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPMacros_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPMacros_Example/Pods-SPMacros_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F4EB49DD6DA535C6C3F1B152 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				F069A90B37DC0AB95529B84C /* Pods_SPMacros_Example.framework in Frameworks */,
+				8269C3335C2A20B249BFA1B3 /* libPods-SPMacros_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				63A86F5FA0DE39A1ECDEAE09 /* Pods_SPMacros_Tests.framework in Frameworks */,
+				7B9BD9677A74AD582BFCFE0D /* libPods-SPMacros_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				AECEABA2F845792108B11181 /* Pods_SPMacros_Example.framework */,
-				942E3C84138E746A1EF45114 /* Pods_SPMacros_Tests.framework */,
+				8CE56BF2873648C3593BC23F /* libPods-SPMacros_Example.a */,
+				014EDEB274610329B8BC819B /* libPods-SPMacros_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
