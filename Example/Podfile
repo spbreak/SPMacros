@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SPMacros_Example', :exclusive => true do
+  pod 'SPMacros', :path => '../'
+end
+
+target 'SPMacros_Tests', :exclusive => true do
+  pod 'SPMacros', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end
